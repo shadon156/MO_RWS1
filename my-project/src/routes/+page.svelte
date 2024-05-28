@@ -4,11 +4,11 @@
             <div class="flex justify-start">
                 <!-- svelte-ignore a11y-missing-attribute -->
                 <div><img src="src/assets/image 3.png" /></div>
-                <div class="text-4xl p-2 pt-5 font-bold">
+                <div class="text-3xl p-2 pt-5 font-bold">
                     Rijkswaterstaat experience
                 </div>
             </div>
-            <div class="text-xl font-bold p-5">Contact | Interantional</div>
+            <div class="text-3xl font-bold pt-5 p-5">Contact | Interantional</div>
         </div>
     </div>
     <div class="text-3xl font-bold pt-44 pl-3 pb-4">
