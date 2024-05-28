@@ -78,14 +78,5 @@
         <!-- svelte-ignore a11y-missing-attribute -->
         <img class="w-96" src="src/assets/image 1.png" />
     </body>
-    <body class=" bg-water">
-        <!-- svelte-ignore a11y-missing-attribute -->
-        <img class="bg-local w-screen" src="src/assets/sand.png">
-        <div class="flex justify-evenly">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-        </div>
-    </body>
-    
 </body>
+
