@@ -125,6 +125,7 @@
       <h1>Rijkswaterstaat experience</h1>
     </div>
     <div class="nav-links">
+      <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#">International</a>
       <button class="contact-button">Contact</button>
       <span class="phone-number">123-456-7890</span>
