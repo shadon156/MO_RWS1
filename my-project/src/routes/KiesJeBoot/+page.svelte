@@ -6,7 +6,7 @@
         <a href="/"><img src="src/assets/image 3.png" /></a>
         <div class="text-xl p-2 pt-5 font-bold">Rijkswaterstaat experience</div>
       </div>
-      <div class="text-xl font-bold pt-5 p-5">Contact | Interantional</div>
+      <div class="text-xl font-bold pt-5 p-5">Contact</div>
     </div>
   </div>
   <div class="flex justify-center pt-6 pb-20 text-2xl font-bold">
