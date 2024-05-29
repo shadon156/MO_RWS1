@@ -8,7 +8,7 @@
                     Rijkswaterstaat experience
                 </div>
             </div>
-            <div class="text-3xl font-bold pt-5 p-5">Contact | Interantional</div>
+            <div class="text-3xl font-semibold pt-5 p-5">Contact | Interantional</div>
         </div>
     </div>
     <div class="text-3xl font-bold pt-44 pl-3 pb-4">
@@ -21,19 +21,21 @@
         </div>
     </div>
     <div class="flex pl-16 pt-6">
-        <button
+        <!-- svelte-ignore a11y-invalid-attribute -->
+        <a href=""
             type="button"
-            class="text-lg bg-secondary rounded-lg text-white hover:drop-shadow-md w-32 h-11"
+            class="text-lg bg-secondary rounded-lg text-white hover:drop-shadow-md px-20 py-3  hover:-translate-y-1 hover:scale-110"
         >
             Meer info
-        </button>
-        <div class="pl-3">
-            <button
+    </a>
+        <div class="pl-3 pt-3  hover:-translate-y-1 hover:scale-110">
+            
+            <a href="/Uitleg"
                 type="button"
-                class="text-lg bg-primary rounded-lg hover:drop-shadow-lg text-white w-44 h-11"
+                class="text-lg bg-primary rounded-lg hover:drop-shadow-lg text-white px-20 py-3 "
             >
                 Begin
-            </button>
+        </a>
         </div>
     </div>
     <div class="absolute inset-y-60 right-0">
