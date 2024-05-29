@@ -8,7 +8,7 @@
                     Rijkswaterstaat experience
                 </div>
             </div>
-            <div class="text-3xl font-semibold pt-5 p-5">Contact | Interantional</div>
+            <div class="text-3xl font-semibold pt-5 p-5">Contact</div>
         </div>
     </div>
     <div class="text-3xl font-bold pt-44 pl-3 pb-4">
