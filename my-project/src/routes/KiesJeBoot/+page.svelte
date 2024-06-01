@@ -34,7 +34,7 @@
         <div class="bg-secondary w-5 h-5 rounded-md ml-2"></div>
       </div>
       <button class="mx-28 mt-3 bg-accent p-2 rounded-lg font-bold hover:-translate-y-1 hover:scale-110"
-        >Volgende</button
+        ><a href="/">Volgende</a></button
       >
     </div>
 
@@ -59,7 +59,7 @@
         <div class="bg-secondary w-5 h-5 rounded-md ml-2"></div>
       </div>
       <button class="mx-28 mt-3 bg-accent p-2 rounded-lg font-bold hover:-translate-y-1 hover:scale-110"
-        >Volgende</button
+        ><a href="/">Volgende</a></button
       >
     </div>
     <!-- svelte-ignore a11y-missing-attribute -->
@@ -83,7 +83,7 @@
         <div class="bg-secondary w-5 h-5 rounded-md ml-2"></div>
       </div>
       <button class="mx-28 mt-3 bg-accent p-2 rounded-lg font-bold hover:-translate-y-1 hover:scale-110"
-        >Volgende</button
+        ><a href="/">Volgende</a></button
       >
     </div>
   </div>
