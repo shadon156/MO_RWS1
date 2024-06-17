@@ -66,7 +66,7 @@
                             15.05,
                             ['get', 'min_height']
                         ],
-                        'fill-extrusion-opacity': 0.6
+                        'fill-extrusion-opacity': 1
                     }
                 });
 
@@ -78,7 +78,7 @@
                 // Function to animate the marker along the path
                 let step = 0;
                 const coordinates = geojson.features[0].geometry.coordinates;
-                const animationSpeed = 1000; // Increase the duration to slow down the animation
+                const animationSpeed = 5000; // Increase the duration to slow down the animation
 
                 function animateMarker() {
                     const start = coordinates[step];
@@ -135,6 +135,7 @@
 </script>
 
 <div bind:this={mapContainer} style="width: 100%; height: 100vh;"></div>
+<a class="absolute top-2 left-2 z-10 bg-accent px-8 py-3 font-bold rounded-xl" href="/KiesJeBoot">terug</a>
 
 <style>
     div {

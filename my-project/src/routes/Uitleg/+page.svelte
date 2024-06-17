@@ -9,9 +9,9 @@
           <div class="text-xl font-bold pt-5 p-5">Contact</div>
         </div>
       </div>
-      <div class="flex justify-center pt-10 text-3xl font-bold">Spell Uitleg</div>
+      <div class="flex justify-center pt-6 text-3xl font-bold">Spell Uitleg</div>
     <div class="flex justify-center">
-        <div class="pt-20 w-2/3 flex-wrap text-center text-xl font-bold">
+        <div class="pt-6 w-2/3 flex-wrap text-center text-xl font-bold">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -39,6 +39,10 @@
     <!-- svelte-ignore a11y-missing-content -->
     <a href="/KiesJeBoot" class="px-10 py-3 bg-accent text-xl font-bold rounded-xl shadow-lg  hover:-translate-y-1 hover:scale-110">Volgende</a>
     </div>
+    <div class="flex justify-center pt-3">
+      <!-- svelte-ignore a11y-missing-content -->
+      <a href="/" class="px-8 py-2 bg-water text-xl text-white font-bold rounded-xl shadow-lg  hover:-translate-y-1 hover:scale-110">Terug</a>
+      </div>
     <div class="absolute inset-x-0 bottom-0">
         <img class="w-screen h-20" src="src/assets/waves.png" alt="">
     </div>
