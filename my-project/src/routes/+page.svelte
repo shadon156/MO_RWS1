@@ -4,11 +4,11 @@
             <div class="flex justify-start">
                 <!-- svelte-ignore a11y-missing-attribute -->
                 <div><img src="src/assets/image 3.png" /></div>
-                <div class="text-3xl p-2 pt-5 font-bold">
+                <div class="text-xl p-2 pt-5 font-bold">
                     Rijkswaterstaat experience
                 </div>
             </div>
-            <div class="text-3xl font-semibold pt-5 p-5">Contact</div>
+            <div class="text-xl p-2 pt-5 font-bold">Contact</div>
         </div>
     </div>
     <div class="text-3xl font-bold pt-44 pl-3 pb-4">
@@ -16,13 +16,13 @@
     </div>
     <div class="flex">
         <div class="text-2xl pl-3 font-bold">Experience</div>
-        <div class="text-lg text-pretty font-semibold pt-1.5 pl-1">
+        <div class="text-lg text-pretty font-semibold pt-1 pl-1">
             hoe Rijkswaterstaat aan de waterveiligheid werkt.
         </div>
     </div>
     <div class="flex pl-16 pt-6">
         <!-- svelte-ignore a11y-invalid-attribute -->
-        <a href=""
+        <a href="/Info"
             type="button"
             class="text-lg bg-secondary rounded-lg text-white hover:drop-shadow-md px-20 py-3  hover:-translate-y-1 hover:scale-110"
         >
