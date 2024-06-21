@@ -22,26 +22,29 @@
     </div>
     <div class="flex pl-16 pt-6">
         <!-- svelte-ignore a11y-invalid-attribute -->
-        <a href="/Info"
+        <a
+            href="/Info"
             type="button"
-            class="text-lg bg-secondary rounded-lg text-white hover:drop-shadow-md px-20 py-3  hover:-translate-y-1 hover:scale-110"
+            class="text-lg bg-secondary rounded-lg text-white hover:drop-shadow-md px-20 py-3 hover:-translate-y-1 hover:scale-110"
         >
             Meer info
-    </a>
-        <div class="pl-3 pt-3  hover:-translate-y-1 hover:scale-110">
-            
-            <a href="/Uitleg"
+        </a>
+        <div class="pl-3 pt-3 hover:-translate-y-1 hover:scale-110">
+            <a
+                href="/Uitleg"
                 type="button"
-                class="text-lg bg-primary rounded-lg hover:drop-shadow-lg text-white px-20 py-3 "
+                class="text-lg bg-primary rounded-lg hover:drop-shadow-lg text-white px-20 py-3"
             >
                 Begin
-        </a>
+            </a>
         </div>
     </div>
     <div class="absolute inset-y-60 right-0">
-        <img src="src/assets/logo.png" alt="">
+        <img src="src/assets/logo.png" alt="" />
     </div>
-    <div class="flex justify-center font-bold text-2xl pt-96">Wat is Rijkswaterstaat Experience ?</div>
+    <div class="flex justify-center font-bold text-2xl pt-96">
+        Wat is Rijkswaterstaat Experience ?
+    </div>
     <div class="flex justify-evenly columns-3 p-10">
         <!-- svelte-ignore a11y-missing-attribute -->
         <img class="w-64 h-96" src="src/assets/image 5.png" />
@@ -52,11 +55,19 @@
     </div>
     <div class="flex justify-center">
         <div class="text-center font-bold pl-32 pr-32 pt-3">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
-            in laying out print, graphic or web designs. The passage is
-            attributed to an unknown typesetter in the 15th century who is
-            thought to have scrambled parts of Cicero's De Finibus Bonorum et
-            Malorum for use in a type specimen book
+            Rijkswaterstaat is het uitvoeringsorganisatie van het ministerie van
+            infrastructuur en waterstaat is verantwoordelijk voor het beheren en
+            ontwikkelen van de rijkswegen, vaarwegen en den wateren van
+            Nederland. Een belangrijks aspect van hun werk is het waarborgen van
+            waterveiligheid. Dit gebeurt door middel van diverse sensoren en
+            datasets die informatie verschaffen over waterhoogte, wind,
+            golfhoogte, tempratuur, stroming en afvoer. Echter is deze
+            informatie vaak versnipperd en niet interactief. Om het onderwerp
+            waterveiligheid toch duidelijk te maken voor specialisten die te
+            maken krijgen met waterveiligheid richt dit project zich op het
+            creëren van een interactieve en gebruiksvriendelijke
+            datavisualisatie van de rivier de Maas. Om zo specialisten inzicht
+            te geven op waterveiligheid.
         </div>
     </div>
     <!-- svelte-ignore a11y-missing-attribute -->
@@ -70,15 +81,16 @@
                 Rijkswaterstaat Experience?
             </div>
             <div class="text-white w-96 pb-32">
-                Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-                used in laying out print, graphic or web designs. The passage is
-                attributed to an unknown typesetter in the 15th century who is
-                thought to have scrambled parts of Cicero's De Finibus Bonorum
-                et Malorum for use in a type specimen book
+                Ons doel is om een oplossing te vinden voor een datavisualisatie
+                die meer context en een duidelijk inzicht bieden in het
+                Nederlandse waterprobleem, die voor de gemiddelde Nederlander
+                zonder specifieke voorkennis makkelijk af te lezen en te
+                begrijpen is. Ons uitgangspunt is het maken van een visualisatie
+                die aantrekkelijk en vernieuwend is, maar ook herkenbaar als
+                datavisualisatie vanuit Rijkswaterstaat.
             </div>
         </div>
         <!-- svelte-ignore a11y-missing-attribute -->
         <img class="w-96" src="src/assets/image 1.png" />
     </body>
 </body>
-

@@ -2,6 +2,7 @@
     import { onMount } from 'svelte';
     import mapboxgl from 'mapbox-gl';
     import geojson from './Path'; // Remove the .ts extension
+    import * as THREE from 'three';
 
     let mapContainer: HTMLDivElement | null = null;
 
@@ -70,12 +71,27 @@
                     }
                 });
 
-                // Create a marker
-                const marker = new mapboxgl.Marker()
-                    .setLngLat(geojson.features[0].geometry.coordinates[0])
-                    .addTo(map);
+                // Set up three.js
+                const renderer = new THREE.WebGLRenderer({ antialias: true });
+                renderer.setSize(map.getCanvas().width, map.getCanvas().height);
+                map.getCanvas().parentNode.appendChild(renderer.domElement);
 
-                // Function to animate the marker along the path
+                const scene = new THREE.Scene();
+                const camera = new THREE.PerspectiveCamera(75, map.getCanvas().width / map.getCanvas().height, 0.1, 1000);
+
+                // Create a cube as a 3D marker
+                const geometry = new THREE.BoxGeometry(100, 100, 100); // Increase the size of the cube for visibility
+                const material = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+                const cube = new THREE.Mesh(geometry, material);
+                scene.add(cube);
+
+                const animate = () => {
+                    requestAnimationFrame(animate);
+                    renderer.render(scene, camera);
+                };
+                animate();
+
+                // Function to animate the 3D marker along the path
                 let step = 0;
                 const coordinates = geojson.features[0].geometry.coordinates;
                 const animationSpeed = 5000; // Increase the duration to slow down the animation
@@ -86,7 +102,9 @@
                     if (!start || !end) return;
 
                     // Update the marker position
-                    marker.setLngLat(end);
+                    const lngLat = new mapboxgl.LngLat(end[0], end[1]);
+                    const point = map.project(lngLat);
+                    cube.position.set(point.x, -point.y, 0); // Negate y to match WebGL coordinate system
 
                     step += 1;
                     if (step < coordinates.length - 1) {
@@ -129,6 +147,29 @@
                 }
 
                 animateMap();
+
+                map.on('render', () => {
+                    const rotation = map.getBearing() * Math.PI / 180;
+                    const pitch = map.getPitch() * Math.PI / 180;
+
+                    camera.projectionMatrix.makePerspective(
+                        -camera.aspect * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.near,
+                        camera.aspect * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.near,
+                        Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.near,
+                        -Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.near,
+                        camera.near,
+                        camera.far
+                    );
+
+                    camera.matrixWorld.makeRotationFromEuler(new THREE.Euler(pitch, rotation, 0, 'YXZ'));
+                    camera.matrixWorldInverse.copy(camera.matrixWorld).invert();
+                });
+
+                map.on('resize', () => {
+                    renderer.setSize(map.getCanvas().width, map.getCanvas().height);
+                    camera.aspect = map.getCanvas().width / map.getCanvas().height;
+                    camera.updateProjectionMatrix();
+                });
             });
         }
     });
