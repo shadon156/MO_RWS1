@@ -42,8 +42,6 @@
     <!-- svelte-ignore a11y-missing-content -->
     <a class="bg-water text-white px-5 py-3 rounded-lg font-bold  hover:-translate-y-1 hover:scale-110" href="/Uitleg">terug</a>
   </div>
-</body>
-<body class="">
   <!-- svelte-ignore a11y-missing-attribute -->
   <img class="w-screen h-20" src="src/assets/waves.png" />
 </body>
