@@ -1,4 +1,4 @@
-<body class="bg-gradient-to-t from-secondary">
+<body class="bg-gradient-to-t from-secondary w-screenh h-screen">
   <div class="">
     <div class="flex justify-between">
       <div class="flex justify-start">
@@ -43,5 +43,5 @@
     <a class="bg-water text-white px-5 py-3 rounded-lg font-bold  hover:-translate-y-1 hover:scale-110" href="/Uitleg">terug</a>
   </div>
   <!-- svelte-ignore a11y-missing-attribute -->
-  <img class="w-screen h-20" src="src/assets/waves.png" />
+  <img class="w-screen h-20 bottom-0" src="src/assets/waves.png" />
 </body>
