@@ -7,11 +7,11 @@
     let mapContainer: HTMLDivElement | null = null;
 
     onMount(() => {
-        mapboxgl.accessToken = 'pk.eyJ1Ijoic2hhZG9uMTU2IiwiYSI6ImNseDRnY3pxczBkdWQyanF0bm14ZHVvbGkifQ.SU1EtXJUTlEVINngdmWkfA';
+        mapboxgl.accessToken = 'YOUR_ACCESS_TOKEN_HERE';
         if (mapContainer) {
             const map = new mapboxgl.Map({
                 container: mapContainer,
-                style: 'mapbox://styles/shadon156/clx4mk5hp01td01pn5n8r2qba', // style URL
+                style: 'mapbox://styles/yourstyle', // style URL
                 center: [5.684197812691798, 50.76291740322954], // starting position [lng, lat]
                 zoom: 18, // starting zoom
                 pitch: 60, // tilt the map
@@ -147,6 +147,8 @@
                 }
 
                 animateMap();
+
+                // Adjust camera and renderer upon map render and resize events
 
                 map.on('render', () => {
                     const rotation = map.getBearing() * Math.PI / 180;
