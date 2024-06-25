@@ -10,6 +10,7 @@
 	  "sourceMap": true,
 	  "strict": true,
 	  "allowImportingTsExtensions": true,
+	  "types": ["svelte", "mapbox-gl", "three"],
 	  "typeRoots": ["node_modules/@types"],
 	  "moduleResolution": "bundler"
 	},

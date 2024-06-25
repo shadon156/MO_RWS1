@@ -9,30 +9,30 @@
           <div class="text-xl font-bold pt-5 p-5">Contact</div>
         </div>
       </div>
-      <div class="flex justify-center pt-6 text-3xl font-bold">Spell Uitleg</div>
+      <div class="flex justify-center pt-6 text-3xl font-bold">Meer informatie</div>
     <div class="flex justify-center">
         <div class="pt-6 w-2/3 flex-wrap text-center text-xl font-bold">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+          Rijkswaterstaat is het uitvoeringsorganisatie van het ministerie van
+          infrastructuur en waterstaat is verantwoordelijk voor het beheren en
+          ontwikkelen van de rijkswegen, vaarwegen en den wateren van
+          Nederland. Een belangrijks aspect van hun werk is het waarborgen van
+          waterveiligheid. Dit gebeurt door middel van diverse sensoren en
+          datasets die informatie verschaffen over waterhoogte, wind,
+          golfhoogte, tempratuur, stroming en afvoer. Echter is deze
+          informatie vaak versnipperd en niet interactief. Om het onderwerp
+          waterveiligheid toch duidelijk te maken voor specialisten die te
+          maken krijgen met waterveiligheid richt dit project zich op het
+          creëren van een interactieve en gebruiksvriendelijke
+          datavisualisatie van de rivier de Maas. Om zo specialisten inzicht
+          te geven op waterveiligheid.
+
+          Ons doel is om een oplossing te vinden voor een datavisualisatie
+                die meer context en een duidelijk inzicht bieden in het
+                Nederlandse waterprobleem, die voor de gemiddelde Nederlander
+                zonder specifieke voorkennis makkelijk af te lezen en te
+                begrijpen is. Ons uitgangspunt is het maken van een visualisatie
+                die aantrekkelijk en vernieuwend is, maar ook herkenbaar als
+                datavisualisatie vanuit Rijkswaterstaat.
         </div>
     </div>
     <div class="flex justify-center pt-10">

@@ -9,7 +9,7 @@
           <div class="text-xl font-bold pt-5 p-5">Contact</div>
         </div>
       </div>
-      <div class="flex justify-center pt-6 text-3xl font-bold">Spell Uitleg</div>
+      <div class="flex justify-center pt-6 text-3xl font-bold">Meer informatie</div>
     <div class="flex justify-center">
         <div class="pt-6 w-2/3 flex-wrap text-center text-xl font-bold">
           Rijkswaterstaat is het uitvoeringsorganisatie van het ministerie van

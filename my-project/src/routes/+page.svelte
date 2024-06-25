@@ -91,6 +91,6 @@
             </div>
         </div>
         <!-- svelte-ignore a11y-missing-attribute -->
-        <img class="w-96" src="src/assets/image 1.png" />
+        <img class="w-80 h-80 mt-10" src="src/assets/image 1.png" />
     </body>
 </body>
